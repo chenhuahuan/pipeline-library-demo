@@ -1,6 +1,8 @@
 #!/usr/bin/env groovy
 
 def call(String name = 'human') {
-  echo "Hello, ${name}."
+  import com.cleverbuilder.GlobalVars
+  println GlobalVars.foo
+  echo "Hello, I am ${name}."
 }
 
