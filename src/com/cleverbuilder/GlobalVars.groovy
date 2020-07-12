@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 package com.cleverbuilder
 
-class GlobalVarsTest {
+class GlobalVars {
    static String foo = "bar"
 
    // refer to this in a pipeline using:
